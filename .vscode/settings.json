@@ -1,0 +1,10 @@
+{
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "editor.snippetSuggestions": "top"
+
+}
+
+"emmet.includeLanguages": {
+    "razor": "html"
+}
