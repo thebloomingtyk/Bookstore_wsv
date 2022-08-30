@@ -9,6 +9,7 @@ django = "==2.2.7"
 psycopg2-binary = "==2.8.6"
 django-crispy-forms = "*"
 django-allauth = "==0.40.0"
+python-decouple = "*"
 
 [dev-packages]
 
