@@ -170,3 +170,10 @@ ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True
 
 # ACCOUNT_EMAIL_VERIFICATION = 'none'
+
+
+DEFAULT_FROM_EMAIL = 'admin@djangobookstore.com'
+
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' # new
+# EMAIL_HOST , EMAIL_HOST_USER , EMAIL_HOST_PASSWORD , EMAIL_PORT ,and EMAIL_USE_TLS
+# password change and reset
