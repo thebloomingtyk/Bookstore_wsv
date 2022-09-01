@@ -13,6 +13,7 @@ python-decouple = "*"
 django-environ = "*"
 pillow = "*"
 stripe = "*"
+django-debug-toolbar = "*"
 
 [dev-packages]
 
