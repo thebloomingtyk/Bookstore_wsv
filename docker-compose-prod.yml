@@ -6,8 +6,8 @@ services:
     command: python /code/manage.py runserver 0.0.0.0:8000
     environment:
       - SECRET_KEY=pnijttra_qd2sxk6!6=epx4=^=cth=q=*b@_fr7$$yy4g9+a*@&
-      - DEBUG=1
-      - ENVIRONMENT=development
+      - DEBUG=0
+      - ENVIRONMENT=production
       - STRIPE_TEST_PUBLISHABLE_KEY=pk_test_51Ld2dSCcVNyQg1866gaR9nwzkcR1PagZ9yEVmyb9yD8paDSvpHgMipWqkeEVDzWqOtN6kilUdCneOhE1gkq7nTE100611K3KeI
       - STRIPE_TEST_SECRET_KEY=sk_test_51Ld2dSCcVNyQg18671t62QOw0X6ni38MOG10bSvTYBoy95m8rJIFjIzFjWwV24V8U5rmHkN4wlmQw7VX7PueKbRA00Uyp8pWos
     volumes:
@@ -20,8 +20,3 @@ services:
     image: postgres:12
     environment:
       - "POSTGRES_HOST_AUTH_METHOD=trust" # hii hapa duh!
-    volumes:
-      - postgres_data:/var/lib/postgresql/data/
-volumes:
-  postgres_data:
-    
