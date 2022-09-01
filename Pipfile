@@ -12,6 +12,7 @@ django-allauth = "==0.40.0"
 python-decouple = "*"
 django-environ = "*"
 pillow = "*"
+stripe = "*"
 
 [dev-packages]
 
