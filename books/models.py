@@ -32,5 +32,10 @@ class Review(models.Model):
         on_delete=models.CASCADE,
     )
 
+    class Meta:
+        permissions = [
+            ('special_status', 'Can read all books'),
+        ]
+
     def __str__(self):
         return self.review
