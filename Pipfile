@@ -11,6 +11,7 @@ django-crispy-forms = "*"
 django-allauth = "==0.40.0"
 python-decouple = "*"
 django-environ = "*"
+pillow = "*"
 
 [dev-packages]
 
