@@ -3,7 +3,8 @@ version: '3'
 services:
   web:
     build: .
-    command: python /code/manage.py runserver 0.0.0.0:8000
+    command: unicorn bookstore_project.wsgi -b 0.0.0.0:8000
+#    python /code/manage.py runserver 0.0.0.0:8000
     environment:
       - SECRET_KEY=pnijttra_qd2sxk6!6=epx4=^=cth=q=*b@_fr7$$yy4g9+a*@&
       - DEBUG=0
