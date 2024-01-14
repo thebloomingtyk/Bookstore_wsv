@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 requests = "*"
-django = "==2.2.7"
+django = "==2.2.20"
 psycopg2-binary = "==2.8.6"
 django-crispy-forms = "*"
 django-allauth = "==0.40.0"
