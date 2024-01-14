@@ -22,7 +22,7 @@
                 "sha256:fe86415d55e84719d75f8b69414f6438ac3547d2078ab91b67e779ef69378412"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==2022.6.15"
+            "version": "==2022.12.07"
         },
         "charset-normalizer": {
             "hashes": [
@@ -173,7 +173,7 @@
                 "sha256:fac2d65901fb0fdf20363fbd345c01958a742f2dc62a8dd4495af66e3ff502a4"
             ],
             "index": "pypi",
-            "version": "==9.2.0"
+            "version": "==9.3.0"
         },
         "psycopg2-binary": {
             "hashes": [
@@ -260,7 +260,7 @@
                 "sha256:7732871f4f7fa58fb6bdcaeadb0161b2bd046c85905dbaa066bdcbcc81953b57"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==65.3.0"
+            "version": "==65.5.1"
         },
         "sqlparse": {
             "hashes": [
